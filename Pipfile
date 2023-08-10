@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+uvicorn = "*"
+python-socketio = {version = "*", extras = ["asyncio_client"]}
+websockets = "*"
+fastapi-socketio = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
