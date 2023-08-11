@@ -5,5 +5,12 @@ socket.on("connect", function () {
 });
 
 socket.on("message", (message) => {
-  console.log(message);
+  message.forEach(element => {
+    const Timestamp = element.Timestamp
+    const dateTime = new Date(Timestamp)    
+    const getMinutes = dateTime.getMinutes()
+    console.log(element)
+
+  });
+  // console.log(message);
 });

@@ -9,6 +9,7 @@ uvicorn = "*"
 python-socketio = {version = "*", extras = ["asyncio_client"]}
 websockets = "*"
 fastapi-socketio = "*"
+pandas = "*"
 
 [dev-packages]
 
