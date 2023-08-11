@@ -4,10 +4,276 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BMS</title>
+
+    <!-- font awesome cdn link  -->
+   
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+/>
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-<h1>Hello World1</h1>
+
+<!-- header section starts  -->
+
+<header>
+
+    <div class="header-1">
+
+        <a href="#" class="logo"><i class="fas fa-brain"></i> Fuzzy BMS</a>
+
+        <form action="" class="search-box-container">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+    </div>
+
+    <div class="header-2">
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#about">description</a>
+            <a href="#team">team</a>
+            <a href="#contact">contact us</a>
+        </nav>
+
+        <div class="icons">
+          <!-- <a href="#"><i class="fa-solid fa-temperature-three-quarters"></i></a>   -->
+            <!-- <a href="#" class="fas fa-temperature-low"></a> -->
+            <a href="#readings" class="fas fa-battery-three-quarters"></a>
+            <a href="#" class="fas fa-user-circle"></a>
+        </div>
+
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="image">
+        <img src="images/result.png" alt="">
+    </div>
+
+    <div class="content">
+       
+        <h3>AI Based Battery Management System For Electric Vehicle</h3>
+   
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- banner section starts  -->
+
+<section class="banner-container" id="readings" >
+
+    <div class="banner">
+        <img src="images/temp.png" alt="">
+        <div class="content">
+            <h3>Temperature:</h3>
+            <p>50 C</p>
+            
+        </div>
+    </div>
+
+    <div class="banner">
+        <img src="images/current.jpg" alt="">
+        <div class="content">
+            <h3>Current:</h3>
+            <p>0.1 A</p>
+            
+        </div>
+    </div>
+    
+    <div class="banner">
+        <img src="images/voltage.jpg" alt="">
+        <div class="content">
+            <h3>Voltage:</h3>
+            <p>4 V</p>
+           
+        </div>
+    </div>
+
+    <div class="banner">
+        <img src="images/soc.jpg" alt="">
+        <div class="content">
+            <h3>SOC:</h3>
+            <p>86%</p>
+           
+        </div>
+    </div>
+
+</section>
+
+<!-- banner section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+    <h1 class="heading"><span>Project Description</span></h1>
+
+    <div class="row">
+        <div class="image">
+            <img src="./images/BMS_New_blockDiagram.png" alt="" />
+        </div>
+
+        <div class="content">
+            <h3>AI based BMS for Electric Vehicle</h3>
+            <p>
+                Our project ensures that the battery is protected at all 
+                times during charging and discharging and any operation out
+                of its safety limit is prevented.
+            </p>
+            <p>
+                In this project we used fuzzy logic, an artificial intelligence algorithm,
+                to demonstrate the improvement in SoC estimation accuracy.
+                It safeguards both the user and the battery by ensuring that the cell 
+                operates within its safe operating parameters.
+            </p>
+            <a href="#" class="btn">learn more</a>
+            
+        </div>
+    </div>
+</section>
+
+<!-- about section ends  -->
+
+
+
+<!-- chef section starts  -->
+
+<section class="chef" id="team" style="background:url(./images/ai.jpg) no-repeat;">
+  
+
+    <h1 class="heading"> <span> project team </span> </h1>
+    
+    <div class="box-container">
+    
+        <div class="box">
+            <img src="images/nehalpic.jpeg" alt="">
+            <div class="info">
+                <h3>Nehal Nasir</h3>
+                <span>1392-2019</span>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="box">
+            <img src="images/khizar.jpeg" alt="">
+            <div class="info">
+                <h3>Khizar Fawad</h3>
+                <span>1358-2019</span>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+    
+    </section>
+    
+    <!-- chef section ends -->
+    
+
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contact us</span> </h1>
+
+    <form action="">
+
+        <div class="inputBox">
+            <input type="text" placeholder="name">
+            <input type="email" placeholder="email">
+        </div>
+
+        <div class="inputBox">
+            <input type="number" placeholder="number">
+            <input type="text" placeholder="subject">
+        </div>
+
+        <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+
+        <input type="submit" value="send message" class="btn">
+
+    </form>
+
+</section>
+
+<!-- contact section ends -->
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <a href="#" class="logo"><i class="fas fa-brain"></i> Fuzzy BMS</a>
+            <div class="share">
+                <a href="#" class="btn fab fa-facebook-f"></a>
+                <a href="#" class="btn fab fa-twitter"></a>
+                <a href="#" class="btn fab fa-instagram"></a>
+                <a href="#" class="btn fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="#about">Description</a>
+                <a href="#team">Team</a>
+                <a href="#contact">Contact Us</a>
+            </div>
+        </div>
+
+                
+        <div class="box">
+            <h3>contact info</h3>
+            <div class="links">
+                <a href="#"> <i class="fas fa-phone"></i> +92 3392002930 </a>
+				<a href="#"><i class="fas fa-envelope"></i> nehalnasir619@gmail.com</a>
+				<a href="#"><i class="fas fa-envelope"></i> khizarfawad123@gmail.com</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i> Karachi, Pakistan</a>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</section>
+
+<!-- footer section ends -->
+<!-- custom js file link  -->
+<script src="script.js"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.3/socket.io.js'></script>
-<script src="./index.js"></script>
+<script src="fuzzy.js"></script>
 </body>
 </html>
